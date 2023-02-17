@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './pages/HomePage/Home';
 
 function App() {
   return (
     <div className="">
-     <h1>React</h1>
+     <Home/>
     </div>
   );
 }
