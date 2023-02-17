@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     screens: {
-      'sm': '640px',
+      'sm': '0',
 
       'md': '768px',
 
@@ -15,27 +15,30 @@ module.exports = {
     },
     
     colors: {
-      'blue': '#1fb6ff',
-      'purple': '#7e5bef',
-      'pink': '#ff49db',
-      'orange': '#ff7849',
-      'green': '#13ce66',
-      'yellow': '#ffc82c',
-      'gray-dark': '#273444',
-      'gray': '#8492a6',
-      'gray-light': '#d3dce6',
+      'primary': '#9b5d46',
+      'secondary': '#d09892',
+      'white': '#ffffff',
+      'third': '#ecded1',
+      'fourth': '#d09892',
+      'blue': '#445cb0',
+      'purple': '#9796f0',
+      'pink': '#fbc7d4',
+      'pink-light': '#ee9ca7',
+      'black': '#000000',
+      'gray': '#808080',
+      'transparent':'transparent'
     },
-    // fontFamily: {
-    //   sans: ['Graphik', 'sans-serif'],
-    //   serif: ['Merriweather', 'serif'],
-    // },
     fontFamily: {
-      'sans': ['Londrina Outline', 'cursive'],
-      'serif': ['ui-serif', 'Georgia'],
-      'mono': ['ui-monospace', 'SFMono-Regular'],
-      'display': ['Oswald'],
-      'body': ['"Open Sans"'],
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
+    extend: {
+      backgroundImage: {
+        'hero': "url('/src/assests/banner/banner2.jpg')",
+      },
     }
+   
   },
   plugins: [],
+ 
 }
