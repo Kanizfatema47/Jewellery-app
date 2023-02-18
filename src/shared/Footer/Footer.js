@@ -11,8 +11,7 @@ const Footer = () => {
                         </svg>
                         <img alt='' class="ml-3 text-xl" src={logo}></img>
                     </a>
-                    <p class="text-gray text-sm text-center ">© 2020 Tailblocks —
-                        <a href="" rel="noopener noreferrer" class="text-gray ml-1" target="_blank">@knyttneve</a>
+                    <p class="text-gray text-sm text-center ">monirjewellers©2023
                     </p>
 
                     <span class="inline-flex  mt-4 ">
@@ -111,7 +110,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-           
+
         </footer>
 
     );

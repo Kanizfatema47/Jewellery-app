@@ -5,6 +5,7 @@ import Footer from '../../shared/Footer/Footer';
 import Navbar from '../../shared/Header/Navbar';
 import UpNev from '../../shared/Header/UpNev';
 import AllProducts from '../AllCategories/AllProducts';
+import Blogs from '../Blogs/Blogs';
 import Banner from './Banner';
 import ByChoice from './ByChoice';
 import Testimonials from './Testimonials';
@@ -18,8 +19,10 @@ const Home = () => {
             <Banner/>
         </div>
         <ByChoice/>
+
         <AllProducts/>
         <Testimonials/>
+        <Blogs/>
         <Signin/>
         <Signup/>
           <Footer/>
