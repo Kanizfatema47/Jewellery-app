@@ -19,6 +19,10 @@ const Signin = () => {
                             <input type="password"
                                 class="border-b border-black focus:outline-none  text-black placeholder:opacity-50 font-semibold md:w-72 lg:w-[340px] bg-transparent"/>
                         </div>
+                        <div class="flex space-x-2 -ml-28 md:-ml-40 lg:-ml-52">
+                            <input class="" type="checkbox" id="checkbox" name="checkbox" />
+                            <h3 class="text-sm font-semibold text-gray  cursor-pointer">Remember Me</h3>
+                        </div>
 
                     </div>
                     <div class="text-center mt-7">
