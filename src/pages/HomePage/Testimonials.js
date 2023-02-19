@@ -1,5 +1,5 @@
 import React from 'react';
-
+import img from '../../assests/user/pic1.jfif'
 const Testimonials = () => {
     return (
         <div>
@@ -19,18 +19,15 @@ const Testimonials = () => {
                                         <div class="flex items-center">
                                             <div class="p-1 bg-white rounded-full">
 
-                                                <img src="https://source.unsplash.com/100x100/?man,boy" alt=""
-                                                    class="rounded-full" />
+                                            <img src={img} alt="" class="w-32 h-32 rounded-full" />
                                             </div>
                                             <div>
-                                                <div class="font-bold text-stone-500 mx-4">John Doe</div>
-                                                <div class="text-sm font-medium text-stone-500 hover:text-stone-500 mx-4"><a
-                                                    href="#">Board Director of Tailblocks</a></div>
+                                                <div class="font-bold text-black mx-4">John Doe</div>
+                                                <div class="text-sm font-medium text-gray hover:text-gray mx-4"><a
+                                                    href="#">Board Director of MJ</a></div>
                                             </div>
                                         </div>
-                                        <div class="text-stone-400  m-2 px-8"> Tailblocks provides best Tailwind CSS Components and
-                                            Blocks to create an unique websites within minutes. It has upto 60+ free components for
-                                            front-end Web Development.</div>
+                                        <div class="text-gray  m-2 px-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores odio quibusdam iure commodi incidunt nulla eligendi, corporis rerum illum illo nobis ut nihil, asperiores ipsa, sint culpa officiis! Eum nisi, </div>
 
                                     </div>
                                 </div>
@@ -45,17 +42,15 @@ const Testimonials = () => {
                                         <div class="flex items-center">
                                             <div class="p-1 bg-white rounded-full">
 
-                                                <img src="https://source.unsplash.com/100x100/?girl" alt="" class="rounded-full" />
+                                            <img src={img} alt="" class="w-32 h-32 rounded-full" />
                                             </div>
                                             <div>
-                                                <div class="font-bold text-stone-500 mx-4">Elina Gilbert</div>
-                                                <div class="text-sm font-medium text-stone-500 hover:text-stone-500 mx-4"><a
-                                                    href="#">ShareHolder, Tailblocks</a></div>
+                                                <div class="font-bold text-black mx-4">Elina Gilbert</div>
+                                                <div class="text-sm font-medium text-gray hover:text-gray mx-4"><a
+                                                    href="#">ShareHolder, MJ</a></div>
                                             </div>
                                         </div>
-                                        <div class="text-stone-400  m-2 px-8"> Tailblocks provides best Tailwind CSS Components and
-                                            Blocks to create an unique websites within minutes. It has upto 60+ free components for
-                                            front-end Web Development.</div>
+                                        <div class="text-gray  m-2 px-8"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae culpa eum maxime sint tempora, quasi perspiciatis. Maiores id molestias, est perspiciatis dolorem vero nam atque, placeat blanditiis vel laborum, doloremque fugiat </div>
 
                                     </div>
                                 </div>
@@ -70,17 +65,15 @@ const Testimonials = () => {
                                         <div class="flex items-center">
                                             <div class="p-1 bg-white rounded-full">
 
-                                                <img src="https://source.unsplash.com/100x100/?boy" alt="" class="rounded-full" />
+                                                <img src={img} alt="" class="w-32 h-32 rounded-full" />
                                             </div>
                                             <div>
-                                                <div class="font-bold text-stone-500 mx-4">Josh Reacher</div>
-                                                <div class="text-sm font-medium text-stone-500 hover:text-stone-500 mx-4"><a
-                                                    href="#">CEO, Tailblocks</a></div>
+                                                <div class="font-bold text-black mx-4">Josh Reacher</div>
+                                                <div class="text-sm font-medium text-gray hover:text-gray mx-4"><a
+                                                    href="#">CEO, MJ</a></div>
                                             </div>
                                         </div>
-                                        <div class="text-stone-400  m-2 px-8"> Tailblocks provides best Tailwind CSS Components and
-                                            Blocks to create an unique websites within minutes. It has upto 60+ free components for
-                                            front-end Web Development.</div>
+                                        <div class="text-gray  m-2 px-8"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci porro unde amet hic voluptates. Ratione beatae nulla libero cum accusamus quo dignissimos, doloribus deserunt quis odio optio nisi ipsam magni eum praesentium!</div>
 
                                     </div>
                                 </div>

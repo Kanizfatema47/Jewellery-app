@@ -11,7 +11,7 @@ import Banner from './Banner';
 import ByChoice from './ByChoice';
 import Story from './Story';
 import Testimonials from './Testimonials';
-
+import We from './We'
 const Home = () => {
     return (
         <div>
@@ -24,6 +24,7 @@ const Home = () => {
 
         <AllProducts/>
         <Story/>
+        <We/>
         <Testimonials/>
         <Blogs/>
         <BlogsSingle/>

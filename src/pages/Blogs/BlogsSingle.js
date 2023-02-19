@@ -73,7 +73,7 @@ const BlogsSingle = () => {
                                             <p class="leading-relaxed text-lg">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy </p>
 
                                             <div className='inline-block mx-auto mt-2'>
-                                            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src={image1} />
+                                            <img alt="team" class="w-16 h-16 bg-gray object-cover object-center flex-shrink-0 rounded-full mr-4" src={image1} />
                                             </div>
 
                                             <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
