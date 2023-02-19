@@ -7,6 +7,7 @@ import UpNev from '../../shared/Header/UpNev';
 import AllProducts from '../AllCategories/AllProducts';
 import Blogs from '../Blogs/Blogs';
 import BlogsSingle from '../Blogs/BlogsSingle';
+import ContactUs from '../ContactUs/ContactUs';
 import Banner from './Banner';
 import ByChoice from './ByChoice';
 import Story from './Story';
@@ -25,6 +26,7 @@ const Home = () => {
         <AllProducts/>
         <Story/>
         <We/>
+        <ContactUs/>
         <Testimonials/>
         <Blogs/>
         <BlogsSingle/>
