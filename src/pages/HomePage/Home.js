@@ -6,8 +6,10 @@ import Navbar from '../../shared/Header/Navbar';
 import UpNev from '../../shared/Header/UpNev';
 import AllProducts from '../AllCategories/AllProducts';
 import Blogs from '../Blogs/Blogs';
+import BlogsSingle from '../Blogs/BlogsSingle';
 import Banner from './Banner';
 import ByChoice from './ByChoice';
+import Story from './Story';
 import Testimonials from './Testimonials';
 
 const Home = () => {
@@ -21,8 +23,10 @@ const Home = () => {
         <ByChoice/>
 
         <AllProducts/>
+        <Story/>
         <Testimonials/>
         <Blogs/>
+        <BlogsSingle/>
         <Signin/>
         <Signup/>
           <Footer/>
